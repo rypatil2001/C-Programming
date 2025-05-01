@@ -6,12 +6,7 @@ Character   Integer   Float     Double     Void
  1 byte     4 bytes   4 bytes   8 bytes    N/A   
 
 2]Derived Data Types:
-                  /
-                /
-             /
-          /
-       /
-    /    
+
 
    Array        Pointer     Function        
 
