@@ -1,0 +1,21 @@
+| Feature / Storage Class     | `auto`                 | `register`                 | `static`                 | `extern`              |
+| --------------------------- | ---------------------- | -------------------------- | ----------------------   | --------------------- |
+| **Scope**                   | Local (block)          | Local (block)              | Local / File             | Global (across files) |
+| **Lifetime**                | Function execution     | Function execution         | Entire program           | Entire program        |
+| **Default Value**           | Garbage                | Garbage                    | 0                        | 0                     |
+| **Memory Location**         | Stack                  | CPU Register (if possible) | Data segment             | Data segment          |
+| **Value Preserved**         | ❌ No                 | ❌ No                      | ✅ Yes                   | ✅ Yes               |
+| **Accessible Across Files** | ❌ No                 | ❌ No                      | ❌ No (file scope only)  | ✅ Yes               |
+| **Memory Allocation**       | Every function call    | Every function call        | Once                     | Once                  |
+| **Keyword Required**        | Optional               | Optional                   | Required                 | Required              |
+| **Typical Use Case**        | Normal local variables | Fast access variables      | Preserve state           | Share global data     |
+
+
+
+auto is the default storage class for local variables.
+
+register requests faster access but may be ignored by the compiler.
+
+static keeps the variable alive for the entire program.
+
+extern is used to share global variables between files.
