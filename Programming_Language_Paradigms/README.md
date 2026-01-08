@@ -29,3 +29,40 @@ int main() {
     add(10, 20);
     return 0;
 }
+
+
+```
+
+# Structured Programming and Paradigms in C
+
+## 2️⃣ Structured Programming Paradigm
+
+The **C programming language** supports **structured programming**, which helps improve:
+
+- Code readability  
+- Maintainability  
+- Debugging efficiency  
+
+Structured programming in C is based on **three fundamental control structures**.
+
+---
+
+### 🔹 Sequence
+- Statements are executed **one after another** in a linear order.
+
+---
+
+### 🔹 Selection (Decision Making)
+- Used to choose different execution paths based on conditions.
+- Implemented using:
+  - `if`
+  - `if-else`
+  - `switch`
+
+**Example:**
+```c
+if (x > 0) {
+    printf("Positive");
+} else {
+    printf("Negative");
+}
