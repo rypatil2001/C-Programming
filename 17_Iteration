@@ -1,0 +1,18 @@
+🔹 Why Iteration is Used : 
+To perform repetitive tasks
+To reduce code duplication
+To process arrays and data structures
+To implement menu-driven programs
+To improve program clarity and maintainability
+
+
+🔹 Types of Iteration in C
+
+1️⃣ for Loop
+Used when the number of repetitions is known in advance. It combines initialization, condition checking, and update in one statement.
+
+2️⃣ while Loop
+Used when the number of repetitions is not known and depends on a condition that is checked before the loop body executes.
+
+3️⃣ do-while Loop
+Used when the loop body must execute at least once, because the condition is checked after executing the statements.
