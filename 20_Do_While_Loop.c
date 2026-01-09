@@ -12,7 +12,6 @@ The condition is evaluated after the execution of the loop body.
 int main()
 {
     int iCnt = 0;
-
     // Loop executes at least once
     do
     {
