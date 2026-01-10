@@ -1,7 +1,7 @@
 
 ---
 
-# 📌 Arrays in C — Professional Notes
+# 📌 Arrays in C —
 
 ## 1️⃣ What is an Array?
 
