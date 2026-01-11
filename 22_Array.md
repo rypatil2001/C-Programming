@@ -1,7 +1,7 @@
 
 ---
 
-# 📌 Arrays in C —
+# 📌 Arrays in C -
 
 ## 1️⃣ What is an Array?
 
@@ -106,6 +106,7 @@ int Arr[No];   // ❌ Not allowed in standard C
 ```
 
 > ⚠️ Note: Some compilers support this as a **Variable Length Array (VLA)**, but it is not recommended for beginners.
+
 
 ---
 
