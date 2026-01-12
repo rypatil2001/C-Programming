@@ -21,7 +21,7 @@
 1. **Linear Data Structures**
 
    * Array
-   * Linked List
+   * Linked List  
    * Stack
    * Queue
 2. **Non-Linear Data Structures**
