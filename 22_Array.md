@@ -52,7 +52,7 @@
 
 ---
 
-## 5️⃣ Array Initialization Methods
+## 5️⃣ Array Initialization Methods [Single Dimensional]
 
 ### (i) Member Initialization List
 
