@@ -106,6 +106,111 @@ printf("%d\n", &s);
 
 ---
 
+
+Below is a **clear visual memory diagram** for your **multi-level pointer program**, explained in a **simple and professional way**.
+
+---
+
+## 🧠 Pointer-to-Pointer Memory Diagram (7 Levels)
+
+
+
+```
+Value = 10
+Address = 1000
+```
+
+```
+No = 10
+│
+│  (address: 1000)
+▼
+p  = 1000
+│
+│  (address: 2000)
+▼
+q  = 2000
+│
+│  (address: 3000)
+▼
+r  = 3000
+│
+│  (address: 4000)
+▼
+s  = 4000
+│
+│  (address: 5000)
+▼
+t  = 5000
+│
+│  (address: 6000)
+▼
+u  = 6000
+│
+│  (address: 7000)
+▼
+v  = 7000
+```
+
+➡️ **All pointers ultimately lead to `No`**
+
+---
+
+## 🔍 Dereferencing Explained Visually
+
+### 1️⃣ `*******v`
+
+```
+v → u → t → s → r → q → p → No
+```
+
+✔️ Output: **10**
+
+---
+
+### 2️⃣ `*u`
+
+```
+u → t
+```
+
+✔️ Output: **address stored in `t`** (not the value 10)
+
+---
+
+### 3️⃣ `&s`
+
+```
+Address of pointer variable s
+```
+
+✔️ Output: **memory location of `s`**
+
+---
+
+## 📊 Summary Table
+
+| Expression | Meaning                | Result  |
+| ---------- | ---------------------- | ------- |
+| `p`        | Address of `No`        | 1000    |
+| `*p`       | Value of `No`          | 10      |
+| `**q`      | Value of `No`          | 10      |
+| `*******v` | Value of `No`          | 10      |
+| `*u`       | Address of `t`         | address |
+| `&s`       | Address of pointer `s` | address |
+
+---
+
+
+
+
+
+
+
+
+
+
+
 ## 🔹 Key Points to Remember
 
 * Each `*` adds one level of indirection.
