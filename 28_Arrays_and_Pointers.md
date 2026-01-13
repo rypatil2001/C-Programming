@@ -21,6 +21,38 @@ This program demonstrates:
 int Arr[] = {10, 20, 30, 40, 50};
 ```
 
+Below is a **clear, beginner-friendly memory diagram** for your array and element pointers.
+
+---
+
+## 🧠 Memory Layout Diagram: Array & Element Pointers
+
+### Code Reference
+
+```c
+int Arr[] = {10, 20, 30, 40, 50};
+
+int *aptr = &(Arr[0]);
+int *bptr = &(Arr[1]);
+int *cptr = &(Arr[2]);
+int *dptr = &(Arr[3]);
+int *eptr = &(Arr[4]);
+```
+
+---
+
+##  Array Stored in Memory (Contiguous)
+
+```
+| Address | Variable | Value |
+| ------- | -------- | ----- |
+| 1000    | Arr[0]   | 10    |
+| 1004    | Arr[1]   | 20    |
+| 1008    | Arr[2]   | 30    |
+| 1012    | Arr[3]   | 40    |
+| 1016    | Arr[4]   | 50    |
+```
+
 * `Arr` is an integer array containing 5 elements.
 * The elements are stored in **contiguous memory locations**.
 
@@ -34,6 +66,23 @@ int *bptr = &(Arr[1]);
 int *cptr = &(Arr[2]);
 int *dptr = &(Arr[3]);
 int *eptr = &(Arr[4]);
+```
+
+```
+aptr ───► Arr[0] ───► 10
+        (1000)
+
+bptr ───► Arr[1] ───► 20
+        (1004)
+
+cptr ───► Arr[2] ───► 30
+        (1008)
+
+dptr ───► Arr[3] ───► 40
+        (1012)
+
+eptr ───► Arr[4] ───► 50
+        (1016)
 ```
 
 * Each pointer stores the **address of a specific array element**.
@@ -53,6 +102,16 @@ Example:
 
 ```c
 int (*ARRPTR)[5] = &Arr;
+```
+
+```
+ARRPTR
+  |
+  v
++----------------------------------+
+| 10 | 20 | 30 | 40 | 50 |
++----------------------------------+
+   Arr (entire array)
 ```
 
 * `ARRPTR` is a **pointer to an array of 5 integers**.
@@ -119,123 +178,6 @@ printf("%d \n", bptr);
 | `int (*p)[5]` | Pointer to the entire array     |
 
 ---
-
-## ✅ Conclusion
-
-This program clearly shows:
-
-* How pointers can point to **array elements**
-* How a pointer can point to the **whole array**
-* The difference between element pointers and array pointers
-* How dereferencing works in both cases
-
-
-
-
-
-
-Below is a **clear memory layout diagram explanation** for your *Array and Pointers* program, written in a **professional and beginner-friendly way**.
-
----
-
-## 🧠 Memory Layout Diagram: Array and Pointers
-
-### Given Code Context
-
-```c
-int Arr[] = {10, 20, 30, 40, 50};
-
-int *aptr = &(Arr[0]);
-int *bptr = &(Arr[1]);
-
-int (*ARRPTR)[5] = &Arr;
-```
-
----
-
-## 📦 Memory Representation (Conceptual)
-
-![Image](https://overiq.com/media/uploads/memory-representation-of-array-of-pointers-1504599930139.png)
-
-![Image](https://media.geeksforgeeks.org/wp-content/uploads/Diagram1-1.png)
-
-![Image](https://media.geeksforgeeks.org/wp-content/uploads/20221216182808/arrayofpointersinc.png)
-
----
-
-## 🧩 Step-by-Step Memory Layout
-
-Assume:
-
-* `int` size = 4 bytes
-* Base address of `Arr` = **1000** (example only)
-
-### 🔹 Array in Memory (Contiguous)
-
-| Address | Variable | Value |
-| ------- | -------- | ----- |
-| 1000    | Arr[0]   | 10    |
-| 1004    | Arr[1]   | 20    |
-| 1008    | Arr[2]   | 30    |
-| 1012    | Arr[3]   | 40    |
-| 1016    | Arr[4]   | 50    |
-
-➡️ Array elements are stored **back-to-back** in memory.
-
----
-
-## 🔹 Pointer to Array Elements (`int *`)
-
-```c
-int *aptr = &(Arr[0]);
-int *bptr = &(Arr[1]);
-```
-
-| Pointer | Stores Address | Points To | Dereference  |
-| ------- | -------------- | --------- | ------------ |
-| aptr    | 1000           | Arr[0]    | `*aptr = 10` |
-| bptr    | 1004           | Arr[1]    | `*bptr = 20` |
-
-✔️ `int *` points to **one element at a time**
-
----
-
-## 🔹 Pointer to Entire Array (`int (*ARRPTR)[5]`)
-
-```c
-int (*ARRPTR)[5] = &Arr;
-```
-
-| Expression | Meaning                  |
-| ---------- | ------------------------ |
-| `ARRPTR`   | Address of whole array   |
-| `*ARRPTR`  | Base address (`&Arr[0]`) |
-| `**ARRPTR` | First element (`10`)     |
-
-### Visualization
-
-```
-ARRPTR
-  |
-  v
-+----------------------------------+
-| 10 | 20 | 30 | 40 | 50 |
-+----------------------------------+
-   Arr (entire array)
-```
-
-✔️ `ARRPTR` points to **the full block of 5 integers**, not a single element.
-
----
-
-## 🔍 Why This Is Important
-
-| Concept            | Meaning                   |
-| ------------------ | ------------------------- |
-| `int *p`           | Points to one element     |
-| `int (*p)[5]`      | Points to entire array    |
-| Pointer arithmetic | Depends on pointer type   |
-| Dereferencing      | Levels matter (`*`, `**`) |
 
 ---
 
