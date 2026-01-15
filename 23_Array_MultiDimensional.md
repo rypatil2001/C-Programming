@@ -27,7 +27,7 @@ All elements are stored in **contiguous memory locations** in **row-major order*
 
 ---
 
-## Corrected Code for a deeper understanding
+##  Code for a deeper understanding
 
 ```c
 #include <stdio.h>
