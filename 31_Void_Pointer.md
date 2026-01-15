@@ -12,7 +12,7 @@
 
 ## 🔹 Program Explanation (Step-by-Step)
 
-### 1️⃣ Variable Declaration
+### 1️⃣ Variable Declaration 
 
 ```c
 char ch = 'm';
