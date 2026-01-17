@@ -17,7 +17,7 @@
 ```c
 char ch = 'm';
 int i = 10;
-float f = 16.27;
+float f = 16.27; 
 double d = 98.986;
 ```
 
