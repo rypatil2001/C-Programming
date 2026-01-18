@@ -8,7 +8,7 @@
 A **function pointer** is a pointer variable that stores the **address of a function**.
 Using function pointers, we can call a function **indirectly**, just like calling it normally, but through a pointer.
 
-This concept is widely used in:
+This concept is widely used in :
 
 * Callback functions
 * Menu-driven programs
