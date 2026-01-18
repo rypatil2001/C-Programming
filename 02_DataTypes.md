@@ -48,9 +48,9 @@
                              │
                              ▼
               ┌────────────────────────────────┐
-              │ short     → Smaller size        │
-              │ long      → Larger size         │
-              │ signed    → + and - values      │
+              │ short     → Smaller size       │
+              │ long      → Larger size        │
+              │ signed    → + and - values     │
               │ unsigned  → Only + values      │
               └────────────────────────────────┘
 
@@ -61,13 +61,14 @@
                              │
                              ▼
               ┌────────────────────────────────────────────┐
-              │ 1. How much memory is required?             │
-              │ 2. What kind of data is stored?             │
-              │ 3. What operations will be performed?       │
+              │ 1. How much memory is required?            │
+              │ 2. What kind of data is stored?            │
+              │ 3. What operations will be performed?      │
               └────────────────────────────────────────────┘
 ```
 
 ---
+
 
 
 
