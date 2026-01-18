@@ -1,5 +1,5 @@
 /*
-•	Function Pointer:
+Function Pointer:
 Function pointer is considered as a pointer which holds the address of function.
 */
 
