@@ -18,6 +18,7 @@ There are 4 storage classes in C & C++.
 | `bss.png`           | bss & non bss image       |
 | `Storage_class.png` | Storage Class table image |
 
+
 ---
 
 ## Every storage class is dependent upon the below points:
