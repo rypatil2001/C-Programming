@@ -1,6 +1,4 @@
 
----
-
 ## 🔹 Void Pointer (Generic Pointer)
 
 * A **void pointer (`void *`)** is called a **generic pointer**.
