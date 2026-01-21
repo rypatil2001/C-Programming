@@ -1,6 +1,5 @@
 ## Relationship Between Arrays and Pointers in C
 
----
 
 ## 🔹 Introduction
 
