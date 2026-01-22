@@ -49,7 +49,6 @@ Lifetime: entire program execution
 Default value: 0
 
 
-
 | Storage Class | Scope        | Lifetime       | Default Value |
 | ------------- | ------------ | -------------- | ------------- |
 | `auto`        | Local        | Block          | Garbage       |
