@@ -3,6 +3,7 @@
 
 ## 🔹 Introduction
 
+
 In **C programming**, **arrays** and **pointers** are closely related concepts.
 An array name behaves like a pointer to its **first element**, which allows pointer arithmetic and efficient memory access. Understanding this relationship is essential for mastering C.
 
