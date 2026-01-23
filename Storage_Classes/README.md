@@ -104,3 +104,5 @@ int x; ---definition
 
 1. We can create the static variable either inside the function (local static) or outside the function (global static).
 2. If the variable is created as global static variable than that variable is only accessible inside the file means we cannot access that global static variable outside the file using the extern keyword.
+
+
