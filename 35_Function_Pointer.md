@@ -166,3 +166,4 @@ Function pointers provide a powerful mechanism to call functions dynamically in 
 Understanding them is crucial for advanced C programming concepts such as callbacks, operating systems, and embedded systems.
 
 ---
+
