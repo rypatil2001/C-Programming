@@ -102,7 +102,7 @@ ptr = Addition;
 
 ---
 
-### 4️⃣ Calling the Function Using Pointer
+### 4️⃣ Calling the Function Using Pointer 
 
 ```c
 Ret = ptr(value1, value2);
