@@ -1,7 +1,7 @@
 
 ---
 
-# 📌 Pointers in C – README
+# 📌 Pointers in C – README 
 
 
 
