@@ -27,26 +27,25 @@ int main()
     */
     printf("%d\n", sizeof(obj1));
 
-    /*
-        Assigning values to members of obj1
-        Dot (.) operator is used to access structure members
-    */
+    
+//        Dot (.) operator is used to access structure members
+   
     obj1.i = 11;
     obj1.f = 90.9;
     obj1.j = 21;
 
-    /*
-        Assigning values to members of obj2
-        obj2 is independent of obj1
-    */
+    
+//    Assigning values to members of obj2
+//    obj2 is independent of obj1
+ 
     obj2.i = 51;
     obj2.f = 78.78;
     obj2.j = 99;
     
-    /*
-        Printing values of structure members
-        obj1 and obj2 store their own separate data
-    */
+    
+    //    Printing values of structure members
+
+    
     printf("%d\n", obj1.i);  // Output: 11
     printf("%d\n", obj2.i);  // Output: 51
     
