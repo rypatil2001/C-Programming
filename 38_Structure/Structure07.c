@@ -2,16 +2,17 @@
 
 struct Demo
 {
-    int i;
-    float f;
+    int i;     // 4 bytes
+    float f;   // 4 bytes
 };
 
 struct Hello
 {
-    int no;
-    int x;
-    struct Demo dobj;
+    int no;           // 4 bytes
+    int x;            // 4 bytes
+    struct Demo dobj; // nested structure
 };
+
 
 int main()
 {
@@ -19,3 +20,14 @@ int main()
 
     return 0;
 }
+
+/*
+
+hobj
+┌──────────┬──────────┬──────────────────────────┐
+│ no       │ x        │        dobj              │
+│          │          ┌──────────┬──────────┐    │
+│          │          │ i        │ f        │    │
+└──────────┴──────────┴──────────┴──────────┘────┘
+
+*/
