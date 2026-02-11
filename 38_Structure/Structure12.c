@@ -2,11 +2,12 @@
 
 struct Demo
 {
-    int no;
-    char ch;
-    float f;
-    int i;
+    int no;     // 4 bytes
+    char ch;    // 1 byte
+    float f;    // 4 bytes
+    int i;      // 4 bytes
 };
+
 
 int main()
 {
@@ -16,3 +17,21 @@ int main()
     
     return 0;
 }
+
+/*
+
+1000  +------------+
+      | no (4B)    |
+1004  +------------+
+      | ch (1B)    |
+1005  | padding    |
+1006  | padding    |
+1007  | padding    |
+1008  +------------+
+      | f (4B)     |
+1012  +------------+
+      | i (4B)     |
+1016  +------------+
+
+
+*/
