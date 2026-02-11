@@ -15,3 +15,19 @@ int main()
 
     return 0;
 }
+
+
+/* 
+If 32-bit System
+int = 4 bytes
+Pointer = 4 bytes
+No padding needed
+
+1000  +------------+
+      |  no = 11   |   (4 bytes)
+1004  +------------+
+      |  ptr = 0   |   (4 bytes)
+1008  +------------+
+
+
+*/
