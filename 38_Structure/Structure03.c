@@ -1,3 +1,5 @@
+// Program to Demonstrate Structure with Pointer Members and Accessing Data Using * Dereferencing in C
+
 #include<stdio.h>
 
 struct Demo
