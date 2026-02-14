@@ -1,3 +1,7 @@
+/*
+"Program to Demonstrate Structure Definition, Object Creation, and Member Access in C"
+*/
+
 #include <stdio.h>
 
 
