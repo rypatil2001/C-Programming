@@ -1,3 +1,4 @@
+// Program to Demonstrate Direct (.) and Indirect (->) Member Access in Structure Using Pointer in C
 #include<stdio.h>
 
 struct Demo
