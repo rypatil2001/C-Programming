@@ -1,3 +1,5 @@
+// Array of Structures in C (One-Dimensional Structure Array)
+
 #include<stdio.h>
 
 struct Demo
