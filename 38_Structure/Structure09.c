@@ -1,3 +1,5 @@
+// Nested Structure in C with Multiple Inner Structure Variables
+
 #include<stdio.h>
 
 struct Hello
