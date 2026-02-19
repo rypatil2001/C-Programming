@@ -1,3 +1,5 @@
+// Self-Referencing Structure Example in C
+
 #include<stdio.h>
 
 struct Demo
