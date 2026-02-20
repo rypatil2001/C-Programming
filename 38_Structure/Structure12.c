@@ -1,3 +1,5 @@
+// Demonstration of Structure Padding and Memory Alignment in C
+
 #include<stdio.h>
 
 struct Demo
