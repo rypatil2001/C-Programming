@@ -1,3 +1,13 @@
+// Same data types
+
+// Different order of members
+
+// Different padding
+
+// Different total size (16 bytes vs 20 bytes)
+
+
+
 #include<stdio.h>
 
 struct Demo
