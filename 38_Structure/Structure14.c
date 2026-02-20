@@ -1,3 +1,4 @@
+// Effect of Structure Packing (#pragma pack(2)) on Memory Layout in C
 
 #include<stdio.h>
 
