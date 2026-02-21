@@ -8,6 +8,7 @@ It also provides low-level features that make it suitable for **system programmi
 
 ## 🧠 Programming Paradigms Supported by C
 
+
 ### 1️⃣ Procedural Programming Paradigm
 C is fundamentally a **procedural language**, where programs are organized as a collection of functions (procedures).
 
