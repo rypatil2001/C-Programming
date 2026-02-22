@@ -6,6 +6,7 @@ There are 4 storage classes in C & C++.
 
 ---
 
+
 ## Index: Storage_Classes
 
 | 🗂️ File Name        | 🔍 Description            |
