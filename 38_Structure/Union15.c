@@ -4,6 +4,7 @@
 
 // Union declaration
 // All members share the same memory location
+
 union Demo
 {
     int no;      // 4 bytes
