@@ -18,7 +18,6 @@ int main()
     return 0;
 }
 
-
 /* 
 If 32-bit System
 int = 4 bytes
@@ -30,6 +29,5 @@ No padding needed
 1004  +------------+
       |  ptr = 0   |   (4 bytes)
 1008  +------------+
-
 
 */
