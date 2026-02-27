@@ -4,6 +4,7 @@
 The **C programming language** primarily follows the **Procedural Programming Paradigm** and strongly supports **Structured Programming**.  
 It also provides low-level features that make it suitable for **system programming**.
 
+
 ---
 
 ## 🧠 Programming Paradigms Supported by C
