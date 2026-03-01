@@ -27,6 +27,7 @@ In C, the register storage class is used to store frequently used variables in C
 SYNTAX
 register data_type variable_name;
 
+
 */
 
 #include <stdio.h>
