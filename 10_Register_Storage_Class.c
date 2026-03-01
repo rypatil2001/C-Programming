@@ -1,4 +1,5 @@
 /*
+
 •	Register Storage Class:
 1.	Register storage class is almost similar as the auto storage class.
 2.	In case of auto storage class, the memory for the variable gets allocated inside the stack segment which is the part of RAM.
