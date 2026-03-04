@@ -1,6 +1,6 @@
 # C-Programming
 Practice Repository!
-# 🚀 C Programming Daily Practice
+# 🚀 C Programming Daily Practice 
 
 Welcome to my **C Programming Practice Repository**! 👨‍💻  
 This is where I upload my daily C programs as I continue learning and mastering the C language. Whether it’s basic syntax or tricky logic-building, you’ll find a wide variety of standalone programs here.
