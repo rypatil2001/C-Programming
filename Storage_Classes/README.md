@@ -5,6 +5,7 @@ The concept of storage class completely depends upon the logic that we used to w
 There are 4 storage classes in C & C++.
 
 ---
+
 ## Index: Storage_Classes
 
 | 🗂️ File Name        | 🔍 Description            |
