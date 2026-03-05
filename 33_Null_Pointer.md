@@ -4,6 +4,7 @@
 
 # 📌 NULL Pointer in C
 
+
 ## 📖 Overview
 
 In C programming, pointers are powerful but dangerous if not handled carefully.
