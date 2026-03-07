@@ -41,6 +41,7 @@ This means the pointer moves **two integer positions ahead** in memory.
 
 ---
 
+
 ### 2️⃣ Pointer Subtraction (`p - n`)
 
 Moves the pointer **backward** by `n` elements.
