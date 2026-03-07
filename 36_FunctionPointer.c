@@ -29,6 +29,7 @@ int main()
     return 0;
 }
 
+
 /*
 //ptr is a pointer that holds the address of a function, that function will accept 2
 parameters both are integer and the function will return integer.
