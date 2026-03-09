@@ -11,6 +11,7 @@ struct Demo
     int i;
 };
 
+
 int main()
 {
     struct Demo obj;
