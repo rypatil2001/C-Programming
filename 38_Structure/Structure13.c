@@ -44,7 +44,6 @@ struct Demo
     int i;
 };
 
-
 /*
 
 Address →
@@ -63,8 +62,6 @@ Address →
 20 Bytes total
 
 */
-
-
 
 int main()
 {
