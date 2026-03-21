@@ -2,6 +2,8 @@
 
 #include<stdio.h>
 
+
+
 // Union declaration
 // All members share the same memory location
 
