@@ -7,7 +7,7 @@ This is where I upload my daily C programs as I continue learning and mastering 
    
 C programming language was developed in the early 1970s by American computer scientist Dennis M. Ritchie at Bell Laboratories. C programming is a Procedural Programming language. C programming is a native programming language. Native means it is close to the microprocessor. Since language is considered as native it is difficult to learn. C is a powerful language. All operating systems are written using C language in (Unix, Linux, Windows, Mac OS)
 
----
+--- 
  
 
 ## 📚 About This Repo
